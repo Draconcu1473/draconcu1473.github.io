@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locastor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Сохранение данных в local storage</h1>
+        <h3>Введите ваше имя</h3>
+        <form>
+            <input id="text" type="text">
+        </form>
+        <h3>Введите ваш возраст</h3>
+        <form>
+            <input id="number" type="number">
+        </form>
+        <script>function func() {
+                let input = document.getElementById('text');
+                let i = document.getElementById('number');
+                localStorage.setItem('key', input);
+                localStorage.setItem('key2', i);
+            }
+        </script>
+        <button type="button" onclick="func()">bruuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh</button>
+    </div>
+</body>
+
+</html>
