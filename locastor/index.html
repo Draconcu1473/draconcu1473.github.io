@@ -20,13 +20,15 @@
             <input id="number" type="number">
         </form>
         <script>function func() {
-                let input = document.getElementById('text');
-                let i = document.getElementById('number');
+                let input = document.getElementById('text').value;
+                let i = document.getElementById('number').value;
+                console.log(input);
+                console.log(i);
                 localStorage.setItem('key', input);
                 localStorage.setItem('key2', i);
             }
         </script>
-        <button type="button" onclick="func()">bruuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh</button>
+        <button type="button" onclick="func()">bruuuh</button>
     </div>
 </body>
 

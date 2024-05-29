@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bruuh</title>
 </head>
 <body>
     <h1>Выбор страны для путешествия в отпуске</h1>
-    
-</body>
+    <h3>Какое ваше любимое время года?</h3>
+    <form>
+             <input id="text" type="text">
+    </form>
+    <script> function f() {
+            let input = document.getElementById('text').value;
+            console.log(input);
+             if (input = Зима) {
+                alert('Норвегия - ваш выбор');
+            }
+            else if (input = Лето) {
+                alert('Поезжайте в Турцию');
+            }
+            else {
+                alert('В России все времена года есть');
+            }
+           
+        }
+    </script>
+    <button type="button" onclick="f()">ok</button>
+   
 </html>
