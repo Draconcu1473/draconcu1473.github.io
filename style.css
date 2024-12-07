@@ -1,0 +1,5 @@
+h1 , h2 , p {
+    font-family: 'Roboto';
+    src: src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');  
+}
+
