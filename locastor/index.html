@@ -11,24 +11,35 @@
 <body>
     <div>
         <h1>Сохранение данных в local storage</h1>
-        <h3>Введите ваше имя</h3>
-        <form>
-            <input id="text" type="text">
-        </form>
-        <h3>Введите ваш возраст</h3>
+        <h3>Введите вашу скорость</h3>
         <form>
             <input id="number" type="number">
         </form>
-        <script>function func() {
-                let input = document.getElementById('text').value;
-                let i = document.getElementById('number').value;
-                console.log(input);
+        <h3>Введите время пути</h3>
+        <form>
+            <input id="number1" type="number">
+        </form>
+        <script> 
+                let c = document.getElementById('number').value;
+                let i = document.getElementById('number1').value;
+                console.log(c);
                 console.log(i);
-                localStorage.setItem('key', input);
-                localStorage.setItem('key2', i);
-            }
-        </script>
-        <button type="button" onclick="func()">bruuuh</button>
+                let a = c * i;
+                console.log(a);
+                let speed = 60;
+                console.log(speed);
+                ('.switch-btn').on('on.switch', function(){
+                speed = 60;
+                console.log(speed);
+                });
+                ('.switch-btn').on('off.switch', function(){
+                speed = 90;
+                console.log(speed)
+                });
+                
+                </script>
+        <div class="switch-btn"></div>
+        <div class="switch-btn switch-on"></div>
     </div>
 </body>
 

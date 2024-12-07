@@ -11,21 +11,26 @@
     <form>
              <input id="text" type="text">
     </form>
-    <script> function f() {
-            let input = document.getElementById('text').value;
-            console.log(input);
-             if (input = Зима) {
-                alert('Норвегия - ваш выбор');
+    <script>
+        let input = document.getElementById('text').value;
+        console.log(input);
+    </script>
+     <button onclick="f()">ok</button>
+     <script>
+     function f(input) {
+             if (input = 'Зима') {
+                console.log('Норвегия - ваш выбор');
             }
-            else if (input = Лето) {
-                alert('Поезжайте в Турцию');
+            else if (input = 'Лето') {
+                console.log('Поезжайте в Турцию');
             }
             else {
-                alert('В России все времена года есть');
+                console.log('В России все времена года есть');;/
             }
            
         }
     </script>
-    <button type="button" onclick="f()">ok</button>
    
 </html>
+
+
