@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locastor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Сохранение данных в local storage</h1>
+        <h3>Введите вашу скорость</h3>
+        <form>
+            <input id="number" type="number">
+        </form>
+        <h3>Введите время пути</h3>
+        <form>
+            <input id="number1" type="number">
+        </form>
+        <script> 
+                let c = document.getElementById('number').value;
+                let i = document.getElementById('number1').value;
+                console.log(c);
+                console.log(i);
+                let a = c * i;
+                console.log(a);
+                let speed = 60;
+                console.log(speed);
+                ('.switch-btn').on('on.switch', function(){
+                speed = 60;
+                console.log(speed);
+                });
+                ('.switch-btn').on('off.switch', function(){
+                speed = 90;
+                console.log(speed)
+                });
+                
+                </script>
+        <div class="switch-btn"></div>
+        <div class="switch-btn switch-on"></div>
+    </div>
+</body>
+
+</html>

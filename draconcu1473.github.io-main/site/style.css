@@ -1,0 +1,153 @@
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+/* header styles start */
+
+  .wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+.header {
+    background-color: #006675;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_logo {
+    padding-bottom: 24px;
+    padding-top: 17px;
+}
+    
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 17px;
+    
+}
+
+.header_nav {
+    padding-bottom: 34px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 10px;
+}
+
+.header_link {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: 75%;
+}
+
+/* header styles end */
+
+/* intro styles start */
+
+.intro {
+    height: 487px;
+    width: 100%;
+    background: url(image/image-7.png) no-repeat center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+.intro_title {
+    font-size: 72px;
+    line-height: 84px;
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    
+}
+
+/* intro styles end */
+
+.problem {
+    height: 2498px;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.problem_title {
+    font-family: 'Roboto' , sans-serif;
+    color: #006675;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.text {
+    font-size: 32px;
+    line-height: 37px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1110px;
+    margin: auto;
+}
+.e {
+    margin-top: 37px;
+}
+
+.c {
+    margin-top: 37px;
+}
+
+.d {
+    margin-top: 37px;
+}
+
+.bold_font {
+    font-weight: bold;
+}
+
+.slogan_text {
+    height: 483px;
+    width: 100%;
+    background: url(image/image-6.png);
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+
+
+
