@@ -4,3 +4,25 @@
      background-image: url(assets/Images/imgBackground.jpg);
 }
 
+header {
+     max-width: 100%;
+     height: 48px;
+}
+
+h1 {
+     color: white;
+     font-size: 70px;
+     line-height: 95px;
+     font-family: ;
+
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+header {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 70vem;
+  font-style: normal;
+}
