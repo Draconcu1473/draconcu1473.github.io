@@ -83,8 +83,8 @@ body{
 /* intro styles start */
 
 .intro {
-    height: 487px;
-    width: 100%;
+    max-height: 487px;
+    max-width: 100%;
     background: url(image/image-7.png) no-repeat center;
     background-size: cover;
     padding-top: 250px;
@@ -102,8 +102,8 @@ body{
 /* intro styles end */
 
 .problem {
-    height: 2498px;
-    width: 100%;
+    max-height: 2498px;
+    max-width: 100%;
     background-color: #EEEEEE;
 }
 
@@ -139,8 +139,8 @@ body{
 }
 
 .slogan_text {
-    height: 483px;
-    width: 100%;
+    max-height: 483px;
+    max-width: 100%;
     background: url(image/image-6.png);
     background-size: cover;
     margin: 0;
