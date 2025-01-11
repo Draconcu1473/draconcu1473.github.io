@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>проекты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Мои проекты</h1>
+    <div class="topnav">
+        <a class="active" href="Hueston/index.html">Хьюстон</a>
+        <a c href="site/index.html">ни к чему не привёдшая вёрстка</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+</body>
+</html>
