@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "brand": "Lada",
+    "model": "Niva",
+    "color": "бордовый",
+    "licensePlate": "А344МЕ44"
+  },
+  {
+    "id": 2,
+    "brand": "ВАЗ",
+    "model": "2107",
+    "color": "баклажановый",
+    "licensePlate": "У344СУ44"
+  }
+]

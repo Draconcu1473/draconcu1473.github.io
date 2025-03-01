@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "lastName": "Иванов",
+    "firstName": "Иван",
+    "phone": "+79266542398",
+    "email": "ivanushka@durovmail.ru",
+    "city": "Костромская обл."
+  },
+  {
+    "id": 2,
+    "lastName": "Иванова",
+    "firstName": "Ольга",
+    "phone": "+79887772184",
+    "email": "ivanushkina@durovmail.com",
+    "city": "Костромская обл."
+  }
+]
